@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/empty_cart_view_id"
+   android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="Cart is empty"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/cart_home_button_id"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/ic_baseline_home_24" />
+
+            <ImageButton
+                android:id="@+id/cart_exit_button_id"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/ic_baseline_exit_to_app_24" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

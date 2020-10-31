@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_baseline_store_24"
+        android:title="Home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_service_zone"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Show Service Zone"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+</menu>
